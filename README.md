@@ -4,10 +4,10 @@ This repository holds a timer built with DOM Manipulation in order to properly t
 
 ## Features:
 
-▶️ Starts by default with a **15min timer**, which is the standard break time;
-▶️ Has a **Stop** and **Set** functionality, allowing the user to stop the timer and set it to a different value if needed;
-▶️ Responsive design;
-▶️ **BONUS**: **Confetti shower** after the timer reaches 0! 🎉
+- Starts by default with a **15min timer**, which is the standard break time;
+- Has a **Stop** and **Set** functionality, allowing the user to stop the timer and set it to a different value if needed;
+- Responsive design;
+- **BONUS**: **Confetti shower** after the timer reaches 0! 🎉
 
 ## Tools used:
 
