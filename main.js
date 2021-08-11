@@ -42,9 +42,9 @@ function parseTime() {
 }
 
 function setTimer() {
-  if (seconds.value >= 60) {
-    seconds.value = 59;
-  }
+  // if (seconds.value >= 60) {
+  //   seconds.value = 59;
+  // }
 
   if (!timerIsRunning) {
     minutes = +minutesInput.value;
@@ -140,7 +140,7 @@ startBtn.addEventListener("click", () => {
 
   if (!processing) {
     processing = true;
-    const x = setTimeout(() => {
+    setTimeout(() => {
       if (
         seconds < 0 ||
         seconds > 59 ||
